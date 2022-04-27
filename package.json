@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "A aplicação ira possibilitar a criação da estrutura de cabeçelhos e a geração dos um a um, salvando todas as informações ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudibertoDiasAssis/People_File_Creator.git"
+  },
+  "author": "Rudiberto DIas Assis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudibertoDiasAssis/People_File_Creator/issues"
+  },
+  "homepage": "https://github.com/RudibertoDiasAssis/People_File_Creator#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "express-handlebars": "^6.0.5",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.19.0"
+  }
+}
